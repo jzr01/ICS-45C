@@ -1,0 +1,18 @@
+ #define STACK_CAPACITY 1000
+class Stack
+{
+private:
+ char stack_info;
+public:
+ Stack(){
+ char foo [1000];
+};
+ 
+
+ void push ( char c ); // adds c to the top of the stack
+ char pop(); // removes the top element, returns it
+ char top(); // returns the top element without removing 
+ bool isEmpty(); //return true iff the stack is empty
+ bool isFull(); // return true iff the stack is full
+ ~Stack(); // destructor for a stack
+}
